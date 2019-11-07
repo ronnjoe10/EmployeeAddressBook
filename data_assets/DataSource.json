@@ -1,0 +1,39 @@
+{
+    "name": "Address data source",
+    "data": [{
+            "id": "5dc2930417a2ea6230af4f37",
+            "firstName": "Latisha",
+            "lastName": "Mccall",
+            "department": "Engineering",
+            "phone": "+61466816567"
+        },
+        {
+            "id": "5dc29304e19c9e15e98fdb7f",
+            "firstName": "Casey",
+            "lastName": "Talley",
+            "department": "Operations",
+            "phone": "+61466816568"
+        },
+        {
+            "id": "5dc29304bc5414b8eb5fc194",
+            "firstName": "Marcie",
+            "lastName": "Kline",
+            "department": "People and Culture",
+            "phone": "+61466816569"
+        },
+        {
+            "id": "5dc293044dac75cb18ee577b",
+            "firstName": "Conrad",
+            "lastName": "Craft",
+            "department": "Media",
+            "phone": "+61466816561"
+        },
+        {
+            "id": "5dc2930400abcf1c15ef6fd8",
+            "firstName": "Wilda",
+            "lastName": "Savage",
+            "department": "Marketing",
+            "phone": "+61466816563"
+        }
+    ]
+}
