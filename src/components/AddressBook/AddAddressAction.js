@@ -47,7 +47,7 @@ export class AddAddressAction extends Component {
             phone: formData.get('phone'),
         }
         window.localStorage.setItem('addedData', JSON.stringify(requestData));
-        let requestParams = Constants.PostMethod('../../data_assets/MockResponse.json');
+        let requestParams = Constants.GetMethod('../../data_assets/MockResponse.json');
         let apiRequestStatus = <API request={requestParams} data={requestData} callBack={this.handleSubmitCallBack} />
         return apiRequestStatus;
     }

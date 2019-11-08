@@ -59,14 +59,16 @@ export class AddressBookDashboard extends Component {
         let __this = this;
         const promiseSort = new Promise(function (resolve, reject) {
             let filteredSortData = sortData.sort((a, b) => {
+                let evalA = (a[sortBy]).toLowerCase();
+                let evalB = (b[sortBy].toLowerCase());
                 switch (sortOrder) {
                     case "ascending":
-                        if (a[sortBy] < b[sortBy]) { return -1; }
-                        if (a[sortBy] > b[sortBy]) { return 1; }
+                        if (evalA < evalB) { return -1; }
+                        if (evalA > evalB) { return 1; }
                         return 0;
                     case "descending":
-                        if (a[sortBy] > b[sortBy]) { return -1; }
-                        if (a[sortBy] < b[sortBy]) { return 1; }
+                        if (evalA > evalB) { return -1; }
+                        if (evalA < evalB) { return 1; }
                         return 0;
                 }
             })
