@@ -74,12 +74,12 @@ export class AddAddressAction extends Component {
                 count++;
             } else if (item.type === "text") {
                 if (!RegExString.test(item.value)) {
-                    this.insertElement(`${item.name} should not have illegal charecters`)
+                    this.insertElement(`${item.name} should not have illegal characters`)
                     count++;
                 }
             } else if (item.type === "number") {
                 if (!RegExNumber.test(item.value)) {
-                    this.insertElement(`${item.name} should not have illegal charecters`)
+                    this.insertElement(`${item.name} should not have illegal characters`)
                     count++;
                 }
             }
