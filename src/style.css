@@ -347,6 +347,10 @@ button {
     .filter-block button {
         width: 40%
     }
+
+    .address-names {
+        padding: 5px;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 900px) {
